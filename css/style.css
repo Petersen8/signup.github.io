@@ -1,0 +1,241 @@
+.index
+{background-color: lightgray;}
+
+.square{
+    color: white;
+}
+
+.logo{
+     width: 12%;
+    display: inline-block;
+    position: absolute;
+    left: 3%;
+    top: 8%;
+    margin-top: -15px;
+    
+}
+
+.square{
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 17%;
+}
+
+.firkant{
+    background-color: white;
+    margin: 2%;
+    margin-top: 130px; 
+    
+    
+}
+
+
+
+.overskrift{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    margin:1%;
+    margin-bottom: 70px;
+}
+
+.speakers{
+    width: 55%;
+    margin-left: 23%;
+    align-content: center;
+    
+}
+
+.underoverskrift{
+    margin: 1%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.tekst{
+    margin: 1%;
+    font-family: sans-serif;
+    margin-left: 23.5%;
+    margin-right: 23.5%;
+    line-height: 1.5;
+    align-content: center;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 55%; 
+  height: 100%;
+  margin: 1%;
+    margin-bottom: -300px;
+    
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width:55%;
+  height: 55%;
+  margin-left: 22%;
+  margin-bottom: 0;
+    display: block;
+  
+}
+
+.button {
+  background-color: #478a99;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 28px;
+  margin: 4px 2px;
+  opacity: .7;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 36%; 
+  border-radius: 8px;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    width: 300px;
+}
+
+.button:hover {opacity: 1}
+
+  
+.footer{
+     width: 100%;
+    background-color: black;
+    margin-top: ;
+    position: inherit;
+    top: 0px;
+    right: 0px;
+    height: 70%;
+    
+}
+
+
+form{
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #478a99;
+    border-radius: 8px;
+}
+
+.overskrift2{
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+    background: rgba(255,255,255,0,1);
+    border: none;
+    font-size: 20px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #d6e0e4;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgb(0,0,0,0,3) inset;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    
+    
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81,203,238,1);
+    border: 1px solid rgba(81,203,238,1);
+}
+
+input[type="checkbox"]{
+    margin: 0 4px 8px 0;
+}
+
+select{
+    padding: 6px; 
+    height: 32px;
+    border-radius: 2px;
+}
+
+fieldset{
+    margin-bottom: 30px;
+    border: none;
+    
+}
+
+legend{
+    display: block;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+    
+}
+
+label.light{
+    font-weight: 300;
+    display: inline;
+    
+}
+
+.section{
+    background-color: #64b445;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    font-size: 1.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0,2);
+    border-radius: 100%;
+}
+
+button{
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0,1) inset;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+@media screen and (min-width:480px) {
+    form{
+        max-width: 480px;
+    }
+}
